@@ -1,0 +1,80 @@
+body {
+    font-family: 'Yeseva One', cursive;
+    background-color:#aca9a9;
+    color:#10163a;}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Yeseva One";}
+
+
+h1 {font-size: 30pt;
+text-align: center;
+}
+
+h2 {
+    margin: .1em;
+    text-align: left;
+    color: #10163a;}
+
+
+header {
+    text-align: center;}
+
+
+/* Bio Section*/
+    #bio {
+    text-align: left;
+    font-size: 15pt;
+    color: #10163a;}
+
+
+/* Website Section */
+#websites {
+text-align: left;
+font-size: 15pt;
+color: #10163a;}
+section#websites {
+display: flex; 
+flex-direction: column; 
+align-items: left;}
+
+
+/* Gallery Section */
+#gallery {
+    border: 2px solid #10163a}
+#gallery img {
+    max-width:100%;}
+
+#gallery figure { 
+    text-align: left;}
+#gallery {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;}
+hr {
+    display: none;}
+
+    
+/* Reviews */
+#reviews {
+    font-size: 15pt;
+     border: 2px solid #10163a}
+#reviews div {
+    padding:1rem;}
+
+#reviews div p:first-letter {
+    color: #10163a;
+    float:left;
+    font-size: 1.5em;
+    padding: .31em;
+    line-height: .2;
+    border:2px solid#38303f}
+
+#reviews div {
+   max-width: 100%;
+    columns: 30rem;}
+
+
+/* Footer */
+#footer {
+    text-align: left;}
+
